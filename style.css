@@ -1,0 +1,10 @@
+#background{
+    background-image: url(./Resource/background3.svg);
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+#logotipo{
+    width: 300px;
+    height: auto;
+}
