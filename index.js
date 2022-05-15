@@ -1,1 +1,1 @@
-alert("click aqui")
+alert("Bienvenido a photoAB Esperamos tu registro ;D")

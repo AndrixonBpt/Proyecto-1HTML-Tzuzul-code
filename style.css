@@ -4,7 +4,34 @@
     background-repeat:no-repeat;
     background-size: 100%;
 }
+/* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */
 #logotipo{
     width: 300px;
     height: auto;
+}
+#titulo{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+hr{
+    width: 20%;
+    box-align: left;
+    display: inline-flex;
+}
+p{
+    display: inline;
+    color: rgb(173, 241, 241);
+}
+form{
+    display: block;
+}
+
+.button{
+    display: inline;
+}
+
+input{
+    display: block;
+    margin: 0px;
 }
