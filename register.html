@@ -3,26 +3,50 @@
 <head>
     <!-- <script src="./index.js"></script> -->
     <title>Page Title</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styleRegister.css'>
 </head>
 <body id="background">
+
     <!-- Page header -->
     <header id="navBar">
         <figure>
             <a href=""><img id="logotipo" src="./Resource/logotipo-white.png" alt="logotipoAB"></a>
         </figure>
     </header>
+
     <!-- login form  -->
-    <form action="">
-        <h1 id="titulo">Register</h1><hr><br>
-        <label for="Email"></label>
-        <input type="text" name="email" id="" placeholder="José Rondon">
-        <input type="text" name="user" id="" placeholder="Joseart98">
-        <input type="email" name="" id="" autocomplete="" placeholder="photoab@example.com"> 
-        <input type="password" name="" id="" placeholder="Escribe tu contraseña">
-        <input type="password" name="" id="" placeholder="repeat password">
-        <input type="submit" value="Register" class="button">
-        <!-- /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */ -->
-    </form>
-</body>
-</html>
+    <!-- titulo -->
+    <section id="borderform">
+        <form action="" id="formContain">
+            <img src="./Resource/logotipoicono.svg" alt=""id="logoicono">
+            <h1 id="titulo">
+                Register
+            </h1>
+            <br><hr><br>
+           <!--Fin del titulo  -->
+            <label for="name" class="formlabels">Name & last name:</label>
+            <input type="text" name="name" id="" class="data" placeholder="José Rondon">
+            
+            <label for="user" class="formlabels">User:</label>
+            <input type="text" name="user" id="" class="data" placeholder="Joseart98">
+            
+            <label for="Email" class="formlabels">Email:</label>
+            <input type="email" name="rmail" id="" class="data" autocomplete="" placeholder="photoab@example.com"> 
+            
+            <label for="password" class="formlabels">Pasword:</label>
+            <input type="password" name="password" id="" class="data" placeholder="Escribe tu contraseña">
+            
+            <label for="repeatPassword" class="formlabels">Repeat Password:</label>
+            <input type="password" name="repeatPassword" id="" class="data" placeholder="repeat password"><br>
+            
+            <!-- buttons -->
+            <input type="checkbox" name="terminosyCondiciones" id="check">
+            <label for="check" id="terminos">I agree term and conditions <a href="">(more info)</a></label>
+            
+            <input type="submit" value="SIGN UP" id="registerButton"> <!--Como agregar una imagen dentro de un input submit-->
+            
+            <!-- /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */ -->
+        </form>
+    </section>
+    </body>
+    </html>

@@ -1,0 +1,132 @@
+#background{
+    background-image: url(./Resource/background3.svg);
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-bottom: 30px;
+}
+/* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */
+
+/* cabecera */
+#logotipo{
+    width: 300px;
+    height: auto;
+}
+#titulo{
+    color: rgba(0, 51, 51);
+    padding: 0px 0px 100px 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    display: inline;
+}
+#logoicono{
+    margin:12px 5px 0px 10px;
+    width: 28px;
+    height: auto;
+    padding: 0;
+}
+
+/* form title */
+hr{
+    width: 80%;
+    box-align: left;
+    display: inline-flex;
+    margin-left: 12px;
+}
+
+/* form contain */
+form{
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+#formContain{
+    background-color: white;
+    border-radius: 70px;
+}
+.button{
+    display: inline;
+}
+
+.data{
+    border: 1px solid black;
+    border-radius: 3px;
+    display: block;
+    margin: 0px;
+    justify-content: center;
+    width: 90%;
+}
+#terminosyCondiciones{
+    color: black;
+}
+
+
+/* checker */
+#check{
+display: none;
+}
+#check + #terminos{
+    margin-top: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+#terminos:before{
+    content: "";
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 0px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    /* vertical-align: middle; */
+    text-align: center;
+} 
+#check:checked + #terminos:before{
+    content: "✔";
+    vertical-align: middle;
+    color:white;
+    font-size: 60%;
+    background-color: black;
+
+}
+/* fin del checker de terminos y condiciones*/
+/* boton de registrarse */
+#registerButton{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    display: block;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    /* fin boton de registrarse */
+}
+.formlabels{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    display: block;
+    justify-content: center;
+}
+p{
+    display: inline;
+    color: rgb(173, 241, 241);
+}
+#borderform{
+    padding: 25px 10px;
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 480px;  
+    height: auto; 
+    margin: auto;
+    justify-content: center;
+}
