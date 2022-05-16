@@ -3,28 +3,26 @@
     background-color: black;
     background-repeat:no-repeat;
     background-size: 100%;
+    padding-bottom: 30px;
 }
 /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */
 
 /* cabecera */
 #logotipo{
-    width: 300px;
+    width: 15%;
     height: auto;
 }
-#titulo{
-    color: black;
-    padding: 0px;
-    margin: 0px;
+
+#borderform{
+    padding: 25px;
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 480px;  
+    height: 480px; 
+    margin: auto;
+    justify-content: center;
 }
 
-/* form title */
-/* linea separadora de contenido */
-hr{
-    width: 20%;
-    box-align: left;
-    display: inline-flex;
-}
-/* linea separadora de contenido */
 /* form contain */
 #containlogin{
     display: block;
@@ -36,29 +34,87 @@ hr{
     border-radius: 100%;
 }
 
-/* Contenido de login */
-#tittle{
-    padding-top: 20%;
-}
-.formlabels{
-    color: black;
-    vertical-align: middle;
-    margin:auto;
+/* titulo */
+#logoicono img{
+    width: 40px;
+    height: auto;
+    padding: 60px 0 0 100px;
+    margin: 0;
 }
 
-input{
-    display: block;
-    margin: 0px;
+#logoicono{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+#tittle{
+    color: rgba(0, 51, 51);
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15%;
+    padding-bottom: 5% ;
+}
+/* fin de titulo */
+hr{
+    width: 100%;
+    box-align: left;
+    display: inline-flex;
+}
+/* linea separadora de contenido */
+
+input {
+display: block;
+margin: 0px;
+}
+
+.userdate {
+width: 95%;
+height: 5%;
+margin: 5px;
 }
 /* Fin del contenido de login */
+
+/* olvido se contraseña */
 #forgotpassword{
     display: block;
+    margin: 4% 0;
 }
-p{
-    display: inline;
-    color: rgb(173, 241, 241);
-}
+/* fin de olvido se contraseña */
 
+/* botones de inicio de sesion */
 .button1{
     display: inline;
+    margin-left: 31%;
+    height: 6%;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+p{
+display: inline;
+    color: rgb(173, 241, 241);
+}
+#register{
+    margin-left:0;
+}
+/* fin de los botonos de inicio de sesion */
+
+/* botones de inicio con facebook y gmail */
+#facebokbutton{
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+.button2{
+    height: 7%;
+    width: 42%;
+    text-align: right;
+    margin-left: 27%;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    /* justify-content: center; por que este parametro no funciona */
 }

@@ -12,30 +12,34 @@
             <a href=""><img id="logotipo" src="./Resource/logotipo-white.png" alt="logotipoAB"></a>
         </figure>
     </header>
-    <section>
+
+    <section id="borderform">
         <form action="" id="containlogin">
             <!-- login form  -->
             <!-- datos -->
+            <figure id="logoicono">
+                <img src="./Resource/logotipoicono.svg" alt=""id="logoicono">
+            </figure>
             <h1 id="tittle">Login</h1><hr><br>
             
-            <label for="writeEmail" class="formslabel"></label>
-            <input type="email" name="" id="writeEmail" autocomplete="" placeholder="photoab@example.com">
+            <label for="writeEmail" class="formslabel">Email or User</label>
+            <input type="email" name="" id="writeEmail"  class="userdate" autocomplete="" placeholder="photoab@example.com">
 
-            <Label for="writePassword" class="formslabel"></Label>
-            <input type="password" name="" id="writePassword" placeholder="Escribe tu contraseña">
+            <Label for="writePassword" class="formslabel">Password</Label>
+            <input type="password" name="" id="writePassword" class="userdate" placeholder="Escribe tu contraseña">
             <!-- fin de los datos -->
             <a href="" id="forgotpassword">forgot your password?</a>
 
             <!-- botones -->
             <input type="submit" value="Login" class="button1">
             <p>Or</p>
-            <input type="submit" value="Register" class="button1">
+            <input type="submit" value="Register" class="button1" id="register">
             <!-- fin de los botones -->
 
             <!-- ingreso con otras plataformas -->
-            <input type="submit" value="Sign In with Facebook" class="button2">
-            <input type="submit" value="Sign In with Gmail" class="button2">
-            <!-- /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */ -->
+                <input type="submit" value="Sign In with Facebook" class="button2" id="facebokbutton">
+                <input type="submit" value="Sign In with Gmail" class="button2" id="gmailbutton">
+                <!-- /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */ -->
         </form>
     </section>
 </body>

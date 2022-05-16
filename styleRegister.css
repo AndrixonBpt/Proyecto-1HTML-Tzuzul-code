@@ -7,22 +7,41 @@
 }
 /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */
 
+#logotipo{
+    margin: 0 0 100px 40px;
+    display: block;
+}
+
+#borderform{
+    padding: 35px 10px;
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 480px;  
+    height: auto; 
+    margin: auto;
+}
+
 /* cabecera */
 #logotipo{
-    width: 300px;
+    width: 14%;
     height: auto;
 }
+
 #titulo{
     color: rgba(0, 51, 51);
-    padding: 0px 0px 100px 0px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    font-size: 45px;
-    display: inline;
+    padding: 0 0 0 0;
+    margin: 0 0 0 12%;
+    font-size: 40px;
+}
+
+figure{
+    padding: 10px 0 0 0;
+    margin: 0;
+    height: 0;
 }
 #logoicono{
-    margin:12px 5px 0px 10px;
-    width: 28px;
+    margin-top: 2px;
+    width: 40px;
     height: auto;
     padding: 0;
 }
@@ -120,13 +139,4 @@ display: none;
 p{
     display: inline;
     color: rgb(173, 241, 241);
-}
-#borderform{
-    padding: 25px 10px;
-    border: 5px solid white;
-    border-radius: 100px;
-    width: 480px;  
-    height: auto; 
-    margin: auto;
-    justify-content: center;
 }
