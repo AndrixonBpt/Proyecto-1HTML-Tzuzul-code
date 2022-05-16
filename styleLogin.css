@@ -18,37 +18,47 @@
 }
 
 /* form title */
+/* linea separadora de contenido */
 hr{
     width: 20%;
     box-align: left;
     display: inline-flex;
 }
-
+/* linea separadora de contenido */
 /* form contain */
-form{
+#containlogin{
     display: block;
-}
-#formContainRegister{
     background-color: white;
-    
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 100%;
 }
-.button{
-    display: inline;
+
+/* Contenido de login */
+#tittle{
+    padding-top: 20%;
+}
+.formlabels{
+    color: black;
+    vertical-align: middle;
+    margin:auto;
 }
 
 input{
     display: block;
     margin: 0px;
 }
-#terminosyCondiciones{
-    color: black;
-}
-
-.formlabels{
-    color: black;
+/* Fin del contenido de login */
+#forgotpassword{
+    display: block;
 }
 p{
     display: inline;
     color: rgb(173, 241, 241);
 }
 
+.button1{
+    display: inline;
+}
