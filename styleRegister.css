@@ -1,3 +1,7 @@
+*{
+    font-family:'garamond', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #background{
     background-image: url(./Resource/background3.svg);
     background-color: black;
@@ -6,10 +10,15 @@
     padding-bottom: 30px;
 }
 /* Porque cuando subí un archivo SVG a mi página afectó su color y fuente de texto */
-
+/* cabecera */
+#navbar{
+    position:static;
+}
 #logotipo{
-    margin: 0 0 100px 40px;
-    display: block;
+    /* margin: 0 0 100px 40px;
+    display: block; */
+    width: 15%;
+    height: auto;
 }
 
 #borderform{
@@ -22,9 +31,19 @@
 }
 
 /* cabecera */
-#logotipo{
-    width: 14%;
+
+/* form title */
+
+/* figure{
+    padding: 10px 0 0 0;
+    margin: 0;
+    height: 0;
+} */
+#logoicono{
+    /* margin-top: 2px; */
+    width: 40px;
     height: auto;
+    padding: 0;
 }
 
 #titulo{
@@ -32,27 +51,16 @@
     padding: 0 0 0 0;
     margin: 0 0 0 12%;
     font-size: 40px;
+    font-family: 'Cinzel Decorative', 'Cooper Black', Arial, Helvetica, sans-serif;
 }
 
-figure{
-    padding: 10px 0 0 0;
-    margin: 0;
-    height: 0;
-}
-#logoicono{
-    margin-top: 2px;
-    width: 40px;
-    height: auto;
-    padding: 0;
-}
-
-/* form title */
 hr{
     width: 80%;
     box-align: left;
     display: inline-flex;
     margin-left: 12px;
 }
+/* form title */
 
 /* form contain */
 form{

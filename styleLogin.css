@@ -1,3 +1,7 @@
+*{
+    font-family:'garamond', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #background{
     background-image: url(./Resource/background3.svg);
     background-color: black;
@@ -38,7 +42,7 @@
 #logoicono img{
     width: 40px;
     height: auto;
-    padding: 60px 0 0 100px;
+    padding: 42px 0 0 90px;
     margin: 0;
 }
 
@@ -55,8 +59,9 @@
     margin: auto;
     text-align: center;
     font-size: 40px;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5% ;
+    font-family: 'Cinzel Decorative', 'Cooper Black', Arial, Helvetica, sans-serif;
 }
 /* fin de titulo */
 hr{
@@ -74,7 +79,11 @@ margin: 0px;
 .userdate {
 width: 95%;
 height: 5%;
-margin: 5px;
+margin: 5p;
+border-radius: 5px;
+border-style: groove;
+padding: 2px 0;
+margin: 8px 0px;
 }
 /* Fin del contenido de login */
 
