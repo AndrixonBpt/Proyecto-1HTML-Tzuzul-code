@@ -21,6 +21,11 @@
     height: auto;
 }
 
+#logotipo:hover{
+    width: 17%;
+    height: auto;
+}
+
 #borderform{
     padding: 35px 10px;
     border: 5px solid white;
@@ -29,6 +34,11 @@
     height: auto; 
     margin: auto;
 }
+
+#borderform:hover{
+    border: 5px solid aquamarine;
+}
+
 
 /* cabecera */
 
@@ -43,15 +53,20 @@
     /* margin-top: 2px; */
     width: 40px;
     height: auto;
-    padding: 0;
+    padding: 5px 0 0 0;
+    display: inline;
+    position: relative;
+    top: 7px;
+    left: 8px;
 }
 
 #titulo{
     color: rgba(0, 51, 51);
-    padding: 0 0 0 0;
-    margin: 0 0 0 12%;
+    padding-left: 15px;
+    margin: 0;
     font-size: 40px;
     font-family: 'Cinzel Decorative', 'Cooper Black', Arial, Helvetica, sans-serif;
+    display: inline;
 }
 
 hr{
@@ -79,21 +94,41 @@ form{
 }
 
 .data{
-    border: 1px solid black;
-    border-radius: 3px;
+    border: 2px solid black;
+    border-style: groove;
+    border-radius: 6px;
     display: block;
     margin: 0px;
     justify-content: center;
     width: 90%;
+    height: 25px;
 }
+.data:hover{
+border:2px solid orangered;
+border-style: groove;
+}
+
+
+/* terminos y condiciones */
+
 #terminosyCondiciones{
     color: black;
 }
 
+#terminos:hover{
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 51, 51);
+    font-size: bold;
+}
 
 /* checker */
 #check{
-display: none;
+    display: none;
 }
 #check + #terminos{
     margin-top: 15px;
@@ -118,10 +153,22 @@ display: none;
     color:white;
     font-size: 60%;
     background-color: black;
-
+    
 }
 /* fin del checker de terminos y condiciones*/
-/* boton de registrarse */
+/* fin de terminos y condiciones */
+
+
+.formlabels{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: black;
+    display: block;
+    justify-content: center;
+}
+
+/* inicio boton de registrarse */
 #registerButton{
     font-size: 20px;
     margin-top: 10px;
@@ -134,17 +181,10 @@ display: none;
     background-color: black;
     color:white;
     justify-content: center;
-    /* fin boton de registrarse */
 }
-.formlabels{
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: black;
-    display: block;
-    justify-content: center;
+
+#registerButton:hover{
+    background-color: rgba(0, 51, 51);
+    border: 1px solid rgba(0, 51, 51);
 }
-p{
-    display: inline;
-    color: rgb(173, 241, 241);
-}
+/* fin boton de registrarse */
